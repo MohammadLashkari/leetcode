@@ -5,6 +5,8 @@ type ListNode struct {
 	Next *ListNode
 }
 
+// Time Complexity  O(n)
+// Space Complexity O(1)
 func middleNode(head *ListNode) *ListNode {
 	slow, fast := head, head
 	for fast != nil || fast.Next != nil {
