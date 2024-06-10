@@ -11,3 +11,4 @@
 |007|[79.Word Search](solutions/007_word_search/007_word_search.go)|Medium|`Backtracking`|[link](https://leetcode.com/problems/word-search/description/)
 |008|[1614.Maximum Nesting Depth of the Parentheses](solutions/008_maximum_nesting_depth_of_the_parentheses/008_maximum_nesting_depth_of_the_parentheses.go)|Easy|`Stack`|[link](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)
 |009|[20.Valid Parentheses](solutions/009_valid_parentheses/009_valid_parentheses.go)|Easy|`Stack`|[link](https://leetcode.com/problems/valid-parentheses/description/)
+|011|[1.Two Sum](solutions/011_two_sum/011_two_sum.go)|Easy|`Array`|[link](https://leetcode.com/problems/two-sum/description/)
