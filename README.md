@@ -1,5 +1,4 @@
-# LeetCode
-
+## leetcode
 |Id|Problem|Difficulty|Topics|Link|
 |:---:|:---|:---:|:---:|:---:|
 |001|[First Missing Positive](solutions/first_missing_positive.go)|Hard|`Array`|[link](https://leetcode.com/problems/first-missing-positive/description)
@@ -11,4 +10,4 @@
 |007|[Word Search](solutions/word_search.go)|Medium|`Backtracking`|[link](https://leetcode.com/problems/word-search/description/)
 |008|[Maximum Nesting Depth of the Parentheses](solutions/maximum_nesting_depth_of_the_parentheses.go)|Easy|`Stack`|[link](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)
 |009|[Valid Parentheses](solutions/valid_parentheses.go)|Easy|`Stack`|[link](https://leetcode.com/problems/valid-parentheses/description/)
-|011|[Two Sum](solutions/two_sum.go)|Easy|`Array`|[link](https://leetcode.com/problems/two-sum/description/)
+|010|[Two Sum](solutions/two_sum.go)|Easy|`Array`|[link](https://leetcode.com/problems/two-sum/description/)
