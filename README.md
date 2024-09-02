@@ -12,3 +12,5 @@
 |009|[Valid Parentheses](solutions/valid_parentheses.go)|Easy|`Stack`|[link](https://leetcode.com/problems/valid-parentheses/description/)
 |010|[Two Sum](solutions/two_sum.go)|Easy|`Array`|[link](https://leetcode.com/problems/two-sum/description/)
 |011|[majority element](solutions/majority_element.go)|easy|`array`|[link](https://leetcode.com/problems/majority-element/description/?envtype=study-plan-v2&envid=top-interview-150)
+|012|[find the index of the first occurrence in a string](solutions/find_the_index_of_the_first_occurrence_in_a_string.go)|easy|`string`|[link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envtype=study-plan-v2&envid=top-interview-150)
+|013|[best time to buy and sell stock](solutions/best_time_to_buy_and_sell_stock.go)|easy|`array`|[link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envtype=study-plan-v2&envid=top-interview-150)
