@@ -1,26 +1,43 @@
 package main
 
-// hello
-// ll
-
-func strStr(haystack string, needle string) int {
-	n := len(needle)
-	h := len(haystack)
-	p := 0
-	if n > h {
-		return -1
-	}
-	for i := 0; i < h; i++ {
-		for j := 0; j < n; j++ {
-			p++
-			break
+func strStr0(haystack string, needle string) int {
+	for i := 0; i < len(haystack); i++ {
+		c := 0
+		for j := 0; j < len(needle); j++ {
+			if j+i >= len(haystack) {
+				break
+			}
+			if haystack[i+j] == needle[j] {
+				c++
+			}
 		}
-		if p == n {
+		if c == len(needle) {
 			return i
 		}
 	}
 	return -1
 }
 
-// "mississippi"
-// "issip"
+func strStr1(haystack string, needle string) int {
+	for i := 0; i <= len(haystack)-len(needle); i++ {
+		match := true
+		for j := 0; j < len(needle); j++ {
+			if haystack[i+j] != needle[j] {
+				match = false
+			}
+		}
+		if match {
+			return i
+		}
+	}
+	return -1
+}
+
+func strStr2(haystack string, needle string) int {
+	for i := 0; i <= len(haystack)-len(needle); i++ {
+		if haystack[i:i+len(needle)] == needle {
+			return i
+		}
+	}
+	return -1
+}
